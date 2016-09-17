@@ -33,6 +33,7 @@ a {
 a:hover,
 a:focus {
   color: #fcbd20;
+
 }
 hr {
   max-width: 100px;
@@ -88,6 +89,7 @@ p {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 11px;
+  border-top: transparent solid 4px;
 }
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
@@ -96,10 +98,12 @@ p {
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
   color: #fdcc52;
+
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
   color: #fdcc52 !important;
+  border-top: #fdcc52 solid 4px;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -483,6 +487,14 @@ body {
   .to_bottom{
     padding-top: 10px;
   }
+
+  .navbar-default .nav > li.active > a,
+  .navbar-default .nav > li.active > a:focus {
+    color: #fdcc52 !important;
+    border-top: transparent solid 4px;
+    background-color: transparent;
+  }
+
 }
 
 .album{
